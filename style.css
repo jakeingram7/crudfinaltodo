@@ -1,0 +1,71 @@
+
+  .title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: monospace;
+  }
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center
+      
+      
+    
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+    font-family: monospace;;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    font-family: monospace;
+
+  }
+
+  td{
+      background-color: aliceblue;
+      padding-right: 10px;
+      text-align: left;
+      font-family: monospace;
+      margin-bottom: 100px;
+   
+      overflow: hidden;
+  }
+
+  .to-do{
+    background: transparent ;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+
+#counter
+  {
+    font-family: monospace;
+  }
+
+  p
+  {
+    font-family: monospace;
+  }
+
+  ::placeholder
+  {
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: small;
+    display: none;
+   
+      overflow: hidden;
+  }
+
+  .tasks-label {
+      margin-top: 55px;
+      color: darkgrey;
+  }
